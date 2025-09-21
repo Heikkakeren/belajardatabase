@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Background -->
+    <color name="bg_dark">#121212</color>
+    <color name="card_bg">#1E1E1E</color>
+    <color name="primary">#00AFFF</color>        <!-- Biru cerah -->
+    <color name="primary_dark">#007ACC</color>   <!-- Biru gelap -->
+    <color name="accent">#B388FF</color>         <!-- Ungu metalik -->
+    <color name="text_primary">#FFFFFF</color>   <!-- Putih -->
+    <color name="text_secondary">#B0B0B0</color> <!-- Abu-abu terang -->
+    <color name="divider">#333333</color>
+
+    <!-- Tambahan untuk Logout -->
+    <color name="error">#F44336</color> <!-- Merah untuk tombol logout -->
+    <color name="white">#FFFFFF</color> <!-- Putih untuk teks logout -->
+</resources>

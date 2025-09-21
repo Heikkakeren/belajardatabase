@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormLaptopActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edtMerk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Merk Laptop"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Model"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtProcessor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Processor"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtRam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="RAM (GB)"
+            android:inputType="number"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Storage (SSD/HDD)"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Harga (Rp)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 3 Gambar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imgGambar1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="4dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/imgGambar2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="4dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/imgGambar3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="4dp"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+        <!-- Tombol pilih gambar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnPilih1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:text="Pilih 1" />
+
+            <Button
+                android:id="@+id/btnPilih2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:text="Pilih 2" />
+
+            <Button
+                android:id="@+id/btnPilih3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:text="Pilih 3" />
+        </LinearLayout>
+
+        <!-- Tombol Simpan -->
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Tombol Update -->
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:visibility="gone"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Tombol Hapus -->
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hapus"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
